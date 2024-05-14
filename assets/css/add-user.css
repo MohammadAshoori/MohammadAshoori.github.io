@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: #1e88e5;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 400px;
+}
+
+#bg {
+    margin-top: 0;
+    background-color: #fff;
+    padding: 15% 25%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    color: #000;
+}
