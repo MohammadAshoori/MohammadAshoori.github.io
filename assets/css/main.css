@@ -3281,7 +3281,7 @@ a.meanmenu-reveal {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  box-shadow: inset 0px 0px 0px 5px var(--primary_color_01);
+  box-shadow: inset 0px 0px 5px 10px var(--primary_color_01);
 }
 
 .header.home2 .header__side-nav .home2__menuBtn:hover {
@@ -4202,12 +4202,12 @@ a.meanmenu-reveal {
 }
 
 .slider2__height {
-  height: 800px;
+  height: 600px;
 }
 
 @media only screen and (max-width: 767px) {
   .slider2__height {
-    height: 600px;
+    height: 400px;
   }
 }
 
