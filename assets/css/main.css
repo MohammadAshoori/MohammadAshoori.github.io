@@ -680,7 +680,7 @@ button.button {
 }
 
 .content_box_120 {
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -9666,5 +9666,6 @@ https://www.phpied.com/delay-loading-your-print-css/
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+
 }

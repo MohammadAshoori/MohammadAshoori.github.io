@@ -49,7 +49,6 @@
     <link rel="stylesheet" href="assets/css/rtl.css" />
     <link rel="stylesheet" href="assets/css/font.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-
   </head>
 
   <body>
@@ -485,38 +484,125 @@
           </div>
         </div>
       </section>
+      <section class="about1 home2">
+        <div class="content_box_120">
+          <div class="container_m container_l">
+            <div class="row">
+              <div class="col-xl-6 d-flex align-items-center col_padding">
+                <div class="about1__right">
+                  <div class="title mb-30">
+                    <h5 id="about">درباره ما</h5>
+                    <h2>
+                      ما خدمات تامین و پشتیبانی تجهیزات شما را با کیفیت بالا
+                      ارائه می دهیم
+                    </h2>
+                  </div>
+                  <div class="about1__content">
+                    <p>
+                      گروه تجاری هیواآتی از تاریخ ۸۹/۱۰/۲۰ فعالیت خود را حول
+                      تامین و پشتیبانی تجهیزات انفورماتیک ، شبکه ، ماشین های
+                      اداری وارایه خدمات نرم افزاری با اتکا به خداوند متعال و
+                      تعهد کارشناسان مجموعه با هدف فعالیت در زمینه های مختلف
+                      تکنولوژی برای پیشبرد و پیشرفت تکنولوژی در کشور آغاز نموده
+                      است.
+                    </p>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="about1__content__item">
+                          <div class="about1__content__item--title">
+                            <span>
+                              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                              <lord-icon
+                                src="https://cdn.lordicon.com/wyqtxzeh.json"
+                                trigger="hover"
+                                stroke="bold"
+                                colors="primary:#1e88e5,secondary:#1e88e5"
+                                style="width: 33px; height: 33px"
+                              >
+                              </lord-icon>
+                            </span>
+                            <h5>تضمین بازگشت پول</h5>
+                          </div>
+                          <!-- <p>کتابهای زیادی در شصت و سه درصد گذشته.</p> -->
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="about1__content__item">
+                          <div class="about1__content__item--title">
+                            <span>
+                              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                              <lord-icon
+                                src="https://cdn.lordicon.com/lecprnjb.json"
+                                trigger="hover"
+                                colors="primary:#1e88e5"
+                                style="width: 33px; height: 33px"
+                              >
+                              </lord-icon>
+                            </span>
+                            <h5>پشتیبانی فنی</h5>
+                          </div>
+                          <!-- <p>کتابهای زیادی در شصت و سه درصد گذشته.</p> -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="main_btn">
+                      <a href="about-us.html">مطالعه بیشتر</a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 order-2 order-xl-0 col_padding">
+                <canvas
+                  id="myChart"
+                  style="width: 100%; max-width: 600px"
+                ></canvas>
+
+                <script>
+                  const xValues = [
+                    "Italy",
+                    "France",
+                    "Spain",
+                    "USA",
+                    "Argentina",
+                    "mohammad",
+                  ];
+                  const yValues = [55, 49, 44, 24, 25, 60, 100];
+                  const barColors = [
+                    "red",
+                    "green",
+                    "blue",
+                    "orange",
+                    "brown",
+                    "#000",
+                  ];
+
+                  new Chart("myChart", {
+                    type: "bar",
+                    data: {
+                      labels: xValues,
+                      datasets: [
+                        {
+                          backgroundColor: barColors,
+                          data: yValues,
+                        },
+                      ],
+                    },
+                    options: {
+                      legend: { display: false },
+                      title: {
+                        display: true,
+                        text: "World Wine Production 2018",
+                      },
+                    },
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- |=====|| About End ||=================| -->
       <!-- |==========================================| -->
-
-      <div id="chart">
-
-        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-
-        <script>
-        const xValues = ["Italy", "France", "Spain", "USA", "Argentina","mohammad"];
-        const yValues = [55, 49, 44, 24, 25,60,100];
-        const barColors = ["red", "green","blue","orange","brown","#000"];
-        
-        new Chart("myChart", {
-          type: "bar",
-          data: {
-            labels: xValues,
-            datasets: [{
-              backgroundColor: barColors,
-              data: yValues
-            }]
-          },
-          options: {
-            legend: {display: false},
-            title: {
-              display: true,
-              text: "World Wine Production 2018"
-            }
-          }
-        });
-        </script>
-        
-      </div>
 
       <!-- |==========================================| -->
       <!-- |=====|| Our Mission Start ||===============| -->
