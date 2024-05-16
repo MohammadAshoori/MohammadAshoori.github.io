@@ -9721,3 +9721,27 @@ https://www.phpied.com/delay-loading-your-print-css/
   font-family: var(--s);
   font-size: 32px;
 }
+
+.custom-shape-divider-top-1715853901 {
+  /* position: absolute; */
+  /* bottom: 0; */
+  left: 0;
+  width: 100%;
+  transform: rotate(180deg);
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1715853901 svg {
+  /* position: relative; */
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+  padding-bottom: 50px;
+
+}
+
+.custom-shape-divider-top-1715853901 .shape-fill {
+  fill: #1e88e5;
+
+}
