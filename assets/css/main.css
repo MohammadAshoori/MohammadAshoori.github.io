@@ -6568,7 +6568,7 @@ a.meanmenu-reveal {
   }
 }
 
-@media only screen and (max-width: 1199px) {
+/* @media only screen and (max-width: 1199px) {
   .about1__right {
     margin-bottom: 100px;
   }
@@ -6578,7 +6578,7 @@ a.meanmenu-reveal {
   .about1__right {
     margin-bottom: 80px;
   }
-}
+} */
 
 .about1__content > p {
   margin-bottom: 30px;
