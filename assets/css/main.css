@@ -72,6 +72,7 @@ font-family: 'Poppins', sans-serif;
   --button_bg_01: #f1f0ec;
   --font_display: "Poppins", sans-serif;
   --font_primary: "Arimo", sans-serif;
+  --s: "aviny"
 }
 
 /*==================================================
@@ -814,6 +815,9 @@ button.button {
 
 .content_box_pob_120 {
   padding-bottom: 120px;
+  padding-top: 120px;
+  margin-bottom: 70px;
+  background-color: var(--gray_bg_01);
 }
 
 @media only screen and (max-width: 1199px) {
@@ -9668,4 +9672,52 @@ https://www.phpied.com/delay-loading-your-print-css/
   align-items: center;
   padding-bottom: 50px;
 
+}
+
+.path-city{
+  stroke: #ffffff;
+ }
+ .path-city:hover{
+   fill: #1e88e56a;
+   #chart{
+    display: none;
+   }
+ }
+ .path-city-g1{
+   fill: #d3e5e8;
+ }
+ .path-city-g2{
+   fill: #d3e5e8;
+ }
+ .path-city-g3{
+   fill: #d3e5e8;
+ }
+ .path-city-g4{
+   fill: #d3e5e8;
+ }
+
+ .path-city-select{
+  fill: var(--primary_color_01);
+ }
+
+ .mhbb{
+ height : 100%;
+ width : 100%;
+ 
+ }
+
+
+ #popup {
+
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--primary_color_01);
+  color: #fff;
+  font-family: var(--s);
+  font-size: 32px;
 }
