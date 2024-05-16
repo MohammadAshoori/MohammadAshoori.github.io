@@ -5468,7 +5468,7 @@ a.meanmenu-reveal {
   height: 100%;
   left: 0px;
   top: 0px;
-  background-color: rgba(37, 37, 40, 0.85);
+  background-color: #1e88e5c7;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   -webkit-transition: 0.3s;
