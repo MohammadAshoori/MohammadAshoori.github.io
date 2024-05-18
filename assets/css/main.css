@@ -9718,8 +9718,8 @@ https://www.phpied.com/delay-loading-your-print-css/
   border-radius: 10px;
   background-color: var(--primary_color_01);
   color: #fff;
-  font-family: var(--s);
-  font-size: 32px;
+  font-family: var(--font_display);
+  font-size: 24px;
 }
 
 .custom-shape-divider-top-1715853901 {
