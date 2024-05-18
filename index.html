@@ -582,10 +582,7 @@
                 </div>
               </div>
               <div class="col-xl-6 order-2 order-xl-0 col_padding">
-                <!-- <canvas
-                  id="myChart"
-                  style="width: 100%; max-width: 600px"
-                ></canvas> -->
+
     <!-- New MAP -->
     <section class="mt-4">
       <div class="container">
@@ -1077,6 +1074,107 @@
         </div>
       </section>
       <div id="popup"></div>
+
+      <section class="about1 home2">
+        <div class="content_box_120">
+          <div class="container_m container_l">
+            <div class="row">
+              <div class="col-xl-6 order-2 order-xl-0 col_padding l">
+
+
+                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+                  <script>
+                  var xValues = ["Mohammad","Italy", "France", "Spain", "USA", "Argentina"];
+                  var yValues = [10,55, 49, 44, 24, 15];
+                  var barColors = [
+                    "#b91d47",
+                    "#00aba9",
+                    "#2b5797",
+                    "#e8c3b9",
+                    "#1e7145"
+                  ];
+                  
+                  new Chart("myChart", {
+                    type: "pie",
+                    data: {
+                      labels: xValues,
+                      datasets: [{
+                        backgroundColor: barColors,
+                        data: yValues
+                      }]
+                    },
+                    options: {
+                      title: {
+                        display: true,
+                        text: "World Wide Wine Production 2018"
+                      }
+                    }
+                  });
+                  </script>
+
+              </div>
+              <div class="col-xl-6 d-flex align-items-center col_padding">
+                <div class="about1__right">
+                  <div class="title mb-30">
+                    <h5 id="about">درباره ما</h5>
+                    <h2>
+                      ما خدمات تامین و پشتیبانی تجهیزات شما را با کیفیت بالا
+                      ارائه می دهیم
+                    </h2>
+                  </div>
+                  <div class="about1__content">
+                    <p>
+                      گروه تجاری هیواآتی از تاریخ ۸۹/۱۰/۲۰ فعالیت خود را حول
+                      تامین و پشتیبانی تجهیزات انفورماتیک ، شبکه ، ماشین های
+                      اداری وارایه خدمات نرم افزاری با اتکا به خداوند متعال و
+                      تعهد کارشناسان مجموعه با هدف فعالیت در زمینه های مختلف
+                      تکنولوژی برای پیشبرد و پیشرفت تکنولوژی در کشور آغاز نموده
+                      است.
+                    </p>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="about1__content__item">
+                          <div class="about1__content__item--title">
+                            <span>
+                              <lord-icon
+                                src="https://cdn.lordicon.com/wyqtxzeh.json"
+                                trigger="hover"
+                                stroke="bold"
+                                colors="primary:#1e88e5,secondary:#1e88e5"
+                                style="width: 33px; height: 33px"
+                              >
+                              </lord-icon>
+                            </span>
+                            <h5>تضمین بازگشت پول</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="about1__content__item">
+                          <div class="about1__content__item--title">
+                            <span>
+                              <lord-icon
+                                src="https://cdn.lordicon.com/lecprnjb.json"
+                                trigger="hover"
+                                colors="primary:#1e88e5"
+                                style="width: 33px; height: 33px"
+                              >
+                              </lord-icon>
+                            </span>
+                            <h5>پشتیبانی فنی</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- |=====|| About End ||=================| -->
       <!-- |==========================================| -->

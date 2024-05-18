@@ -674,27 +674,5 @@
     popup.style.display = "none";
   });
 
-  const xValues = ["Italy", "France", "Spain", "USA", "Argentina", "mohammad"];
-  const yValues = [55, 49, 44, 24, 25, 60, 100];
-  const barColors = ["red", "green", "blue", "orange", "brown", "#000"];
-
-  new Chart("myChart", {
-    type: "bar",
-    data: {
-      labels: xValues,
-      datasets: [
-        {
-          backgroundColor: barColors,
-          data: yValues,
-        },
-      ],
-    },
-    options: {
-      legend: { display: false },
-      title: {
-        display: true,
-        text: "World Wine Production 2018",
-      },
-    },
-  });
+  
 })(jQuery);
