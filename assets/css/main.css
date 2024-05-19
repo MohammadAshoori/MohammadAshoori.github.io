@@ -9747,7 +9747,7 @@ https://www.phpied.com/delay-loading-your-print-css/
 }
 
 .flex-wrapper {
-  display: flex;
+  /* display: flex; */
   flex-flow: row nowrap;
 }
 
@@ -9759,7 +9759,7 @@ https://www.phpied.com/delay-loading-your-print-css/
 .circular-chart {
   display: block;
   margin: 10px auto;
-  max-width: 80%;
+  max-width: 25%;
   max-height: 250px;
 }
 
