@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="fa" dir="rtl">
+
   <head>
     <!-- Required Meta Tags Start -->
     <meta charset="utf-8" />
@@ -11,6 +12,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      
     />
     <!-- Required Meta Tags End -->
 
@@ -24,20 +26,22 @@
     <link rel="stylesheet" href="assets/css/rtl.css" />
     <link rel="stylesheet" href="assets/css/font.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   </head>
 
   <body>
    
     <!-- |==========================================| -->
     <!-- |=====|| Preloader Start ||===============| -->
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="preloader__content">
         <div class="preloader__wrapper">
           <div class="preloader__spinner"></div>
           <div class="preloader__txt"></div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- |=====|| Preloader End ||=================| -->
     <!-- |==========================================| -->
 
@@ -519,6 +523,7 @@
           </div>
         </div>
       </section>
+
 
       <section class="about1 home2 service2">
         <div class="content_box_120">
@@ -1074,20 +1079,22 @@
         </div>
       </section>
       <div id="popup"></div>
-
+<!-- 
       <section class="about1 home2">
         <div class="content_box_120">
           <div class="container_m container_l">
             <div class="row">
-              <div class="col-xl-6 order-2 order-xl-0 col_padding l">
+            
+            
+              <div class="col-xl-6 d-flex align-items-center col_padding">
+                
 
 
-                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-
-                  <script>
-                  var xValues = ["Mohammad","Italy", "France", "Spain", "USA", "Argentina"];
-                  var yValues = [10,55, 49, 44, 24, 15];
-                  var barColors = [
+                <canvas id="myChart" style="width:33%;max-width:300px"></canvas>
+                <script>
+                  const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+                  const yValues = [55, 49, 44, 24, 15];
+                  const barColors = [
                     "#b91d47",
                     "#00aba9",
                     "#2b5797",
@@ -1096,7 +1103,7 @@
                   ];
                   
                   new Chart("myChart", {
-                    type: "pie",
+                    type: "doughnut",
                     data: {
                       labels: xValues,
                       datasets: [{
@@ -1113,61 +1120,215 @@
                   });
                   </script>
 
+                
+                  <canvas id="chart2" style="width:33%;max-width:300px"></canvas>
+                  <script>
+                  var xValues2 = ["Italy", "France", "Spain", "USA", "Argentina"];
+                  var yValues2 = [55, 49, 44, 24, 15];
+                  var barColors2 = [
+                    "#b91d47",
+                    "#00aba9",
+                    "#2b5797",
+                    "#e8c3b9",
+                    "#1e7145"
+                  ];
+                  
+                  new Chart("chart2", {
+                    type: "pie",
+                    data: {
+                      labels: xValues2,
+                      datasets: [{
+                        backgroundColor: barColors2,
+                        data: yValues2
+                      }]
+                    },
+                    options: {
+                      title: {
+                        display: true,
+                        text: "World Wide Wine Production 2018"
+                      }
+                    }
+                  });
+                  </script>
+
+
+
+
+                  <canvas id="myChart3" style="width:33%;max-width:300px"></canvas>
+                  <script>
+                    var xValues3 = ["Italy", "France", "Spain", "USA", "Argentina"];
+                    var yValues3 = [55, 49, 44, 24, 15];
+                    var barColors3 = ["red", "green","blue","orange","brown"];
+                    
+                    new Chart("myChart3", {
+                      type: "horizontalBar",
+                      data: {
+                      labels: xValues3,
+                      datasets: [{
+                        backgroundColor: barColors3,
+                        data: yValues3
+                      }]
+                    },
+                      options: {
+                        legend: {display: false},
+                        title: {
+                          display: true,
+                          text: "World Wine Production 2018"
+                        },
+                        scales: {
+                          xAxes: [{ticks: {min: 10, max:60}}]
+                        }
+                      }
+                    });
+                    </script>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="about1 home2">
+        <div class="content_box_120">
+          <div class="container_m container_l">
+            <div class="row">
+              <div class="col-xl-6 order-2 order-xl-0 col_padding l">
+
+
+                <canvas id="myChart" style="width:200%;max-width:600px;margin-top:100px"></canvas>
+                <script>
+                  const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+                  const yValues = [55, 49, 44, 24, 15];
+                  const barColors = [
+                    "#b91d47",
+                    "#00aba9",
+                    "#2b5797",
+                    "#e8c3b9",
+                    "#1e7145"
+                  ];
+                  
+                  new Chart("myChart", {
+                    type: "doughnut",
+                    data: {
+                      labels: xValues,
+                      datasets: [{
+                        backgroundColor: barColors,
+                        data: yValues
+                      }]
+                    },
+                    options: {
+                      title: {
+                        display: true,
+                        text: "World Wide Wine Production 2018"
+                      }
+                    }
+                  });
+                  </script>
+
+                
+           
+
+
+    
+
+                  <canvas id="myChart3" style="width:200%;max-width:600px;margin-top: 100px"></canvas>
+                  <script>
+                    var xValues3 = ["Italy", "France", "Spain", "USA", "Argentina"];
+                    var yValues3 = [55, 49, 44, 24, 15];
+                    var barColors3 = ["red", "green","blue","orange","brown"];
+                    
+                    new Chart("myChart3", {
+                      type: "horizontalBar",
+                      data: {
+                      labels: xValues3,
+                      datasets: [{
+                        backgroundColor: barColors3,
+                        data: yValues3
+                      }]
+                    },
+                      options: {
+                        legend: {display: false},
+                        title: {
+                          display: true,
+                          text: "World Wine Production 2018"
+                        },
+                        scales: {
+                          xAxes: [{ticks: {min: 10, max:60}}]
+                        }
+                      }
+                    });
+                    </script>
+                
+
               </div>
               <div class="col-xl-6 d-flex align-items-center col_padding">
                 <div class="about1__right">
-                  <div class="title mb-30">
-                    <h5 id="about">درباره ما</h5>
-                    <h2>
-                      ما خدمات تامین و پشتیبانی تجهیزات شما را با کیفیت بالا
-                      ارائه می دهیم
-                    </h2>
-                  </div>
-                  <div class="about1__content">
-                    <p>
-                      گروه تجاری هیواآتی از تاریخ ۸۹/۱۰/۲۰ فعالیت خود را حول
-                      تامین و پشتیبانی تجهیزات انفورماتیک ، شبکه ، ماشین های
-                      اداری وارایه خدمات نرم افزاری با اتکا به خداوند متعال و
-                      تعهد کارشناسان مجموعه با هدف فعالیت در زمینه های مختلف
-                      تکنولوژی برای پیشبرد و پیشرفت تکنولوژی در کشور آغاز نموده
-                      است.
-                    </p>
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="about1__content__item">
-                          <div class="about1__content__item--title">
-                            <span>
-                              <lord-icon
-                                src="https://cdn.lordicon.com/wyqtxzeh.json"
-                                trigger="hover"
-                                stroke="bold"
-                                colors="primary:#1e88e5,secondary:#1e88e5"
-                                style="width: 33px; height: 33px"
-                              >
-                              </lord-icon>
-                            </span>
-                            <h5>تضمین بازگشت پول</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="about1__content__item">
-                          <div class="about1__content__item--title">
-                            <span>
-                              <lord-icon
-                                src="https://cdn.lordicon.com/lecprnjb.json"
-                                trigger="hover"
-                                colors="primary:#1e88e5"
-                                style="width: 33px; height: 33px"
-                              >
-                              </lord-icon>
-                            </span>
-                            <h5>پشتیبانی فنی</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
+                  <canvas id="chart2" style="width:500%;max-width:900px;margin-top:100px"></canvas>
+                  <script>
+                  var xValues2 = ["Italy", "France", "Spain", "USA", "Argentina"];
+                  var yValues2 = [55, 49, 44, 24, 15];
+                  var barColors2 = [
+                    "#b91d47",
+                    "#00aba9",
+                    "#2b5797",
+                    "#e8c3b9",
+                    "#1e7145"
+                  ];
+                  
+                  new Chart("chart2", {
+                    type: "pie",
+                    data: {
+                      labels: xValues2,
+                      datasets: [{
+                        backgroundColor: barColors2,
+                        data: yValues2
+                      }]
+                    },
+                    options: {
+                      title: {
+                        display: true,
+                        text: "World Wide Wine Production 2018"
+                      }
+                    }
+                  });
+                  </script>
+
+
+
+                  <canvas id="myChart4" style="width:500%;max-width:900px;margin-top:100px"></canvas>
+                  <script>
+                    const xValues4 = ["Italy", "France", "Spain", "USA", "Argentina"];
+                    const yValues4 = [55, 49, 44, 24, 15];
+                    const barColors4 = [
+                      "#b91d47",
+                      "#00aba9",
+                      "#2b5797",
+                      "#e8c3b9",
+                      "#1e7145"
+                    ];
+                    
+                    new Chart("myChart4", {
+                      type: "doughnut",
+                      data: {
+                        labels: xValues4,
+                        datasets: [{
+                          backgroundColor: barColors4,
+                          data: yValues4
+                        }]
+                      },
+                      options: {
+                        title: {
+                          display: true,
+                          text: "World Wide Wine Production 2018"
+                        }
+                      }
+                    });
+                    </script>
+  
+                  
+
+
                   </div>
                 </div>
               </div>
@@ -1175,7 +1336,6 @@
           </div>
         </div>
       </section>
-
       <!-- |=====|| About End ||=================| -->
       <!-- |==========================================| -->
 
@@ -2235,6 +2395,7 @@
     <script src="assets/js/feather.min.js"></script>
     <script src="assets/js/progresscircle.js"></script>
     <script src="assets/js/main.js"></script>
+    
     <!-- |=====|| All js End ||=================| -->
     <!-- |==========================================| -->
   </body>
