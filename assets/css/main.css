@@ -9800,3 +9800,44 @@ https://www.phpied.com/delay-loading-your-print-css/
   font-size: 0.5em;
   text-anchor: middle;
 }
+/* #infoTable {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  color: #fff;
+  margin: 0 auto;
+}
+#infoTable, th, td {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px 40px;
+  border-radius: 10px;
+}
+#infoTable,tr{
+  background-color: var(--primary_color_01);
+} */
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+}
+th {
+  border-radius: 8px;
+  background-color: var(--primary_color_01);
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  font-family: "iranyekan" , iransans !important;
+}
+td {
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background-color: #d3e5e8;
+  padding: 10px;
+  font-family: "iranyekan" , iransans !important;
+}
+caption{
+  text-align: center;
+  font-family: "iranyekan" , iransans !important;
+}
