@@ -59,7 +59,7 @@ font-family: 'Poppins', sans-serif;
 :root {
   --primary_color_01: #1e88e5;
   --primary_color_01_bg: #eeeefd;
-  --secondary_color_01: #33cc79;
+  --secondary_color_01: #1e88e5;
   --secondary_color_01_bg: #ebfaf2;
   --secondary_color_02: #fff;
   --secondary_color_02_bg: #fdfaef;
@@ -8750,7 +8750,7 @@ a.meanmenu-reveal {
   position: absolute;
   left: 0px;
   top: 0px;
-  background-color: #7774ef;
+  background-color: #0d4af1;
   width: 100px;
   height: 100px;
   text-align: center;
